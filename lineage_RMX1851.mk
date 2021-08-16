@@ -13,6 +13,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
+# Pixel Charger
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1851
 PRODUCT_NAME := lineage_RMX1851
