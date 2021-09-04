@@ -5,7 +5,7 @@
 #
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Inherit from RMX1851 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -18,7 +18,7 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1851
-PRODUCT_NAME := lineage_RMX1851
+PRODUCT_NAME := evolution_RMX1851
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 3 Pro
 PRODUCT_MANUFACTURER := Realme
@@ -29,4 +29,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1851" \
     TARGET_DEVICE="RMX1851"
 
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys"
+
