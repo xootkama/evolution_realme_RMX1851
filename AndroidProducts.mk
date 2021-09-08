@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX1851.mk
+    $(LOCAL_DIR)/evolution_RMX1851.mk
