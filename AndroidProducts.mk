@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_RMX1851.mk
+    $(LOCAL_DIR)/yaap_RMX1851.mk
