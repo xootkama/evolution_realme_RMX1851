@@ -23,3 +23,6 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
 # Inherit from the proprietary version
 -include vendor/realme/RMX1851/BoardConfigVendor.mk
+
+# Boot Permissive
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
