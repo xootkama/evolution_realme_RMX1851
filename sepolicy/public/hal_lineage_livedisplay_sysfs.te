@@ -1,0 +1,2 @@
+type hal_lineage_livedisplay_sysfs, domain, coredomain;
+hal_server_domain(hal_lineage_livedisplay_sysfs, hal_lineage_livedisplay)
