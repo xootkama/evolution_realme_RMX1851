@@ -22,8 +22,10 @@ BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
 # Sepolicy
+include device/qcom/sepolicy/SEPolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Inherit from the proprietary version
 -include vendor/realme/RMX1851/BoardConfigVendor.mk
