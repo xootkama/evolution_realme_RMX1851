@@ -1,0 +1,4 @@
+allow untrusted_app_27 sysfs_kgsl:dir search;
+allow untrusted_app_27 sysfs_kgsl:file r_file_perms;
+
+allow untrusted_app_27 app_data_file:file { execute execute_no_trans };

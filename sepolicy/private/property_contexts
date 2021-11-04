@@ -1,0 +1,6 @@
+vendor.powerhal.state      u:object_r:vendor_power_prop:s0
+vendor.powerhal.audio      u:object_r:vendor_power_prop:s0
+vendor.powerhal.init       u:object_r:vendor_power_prop:s0
+vendor.powerhal.rendering  u:object_r:vendor_power_prop:s0
+ro.vendor.fm.              u:object_r:vendor_fm_prop:s0
+perf_profile               u:object_r:system_perf_prop:s0

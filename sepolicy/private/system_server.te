@@ -1,0 +1,6 @@
+get_prop(system_server, vendor_camera_prop)
+allow system_server hal_power_pixel:binder call;
+
+get_prop(system_server, vendor_default_prop)
+
+allow system_server sysfs_battery_supply:file { getattr open read write };
